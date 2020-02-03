@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(_DEV)", "..\dropbox\_DEV", "{45113A13-2933-F543-3185-4E80B15ADDED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(_projects)", "..\dropbox\_DEV\_projects", "{0FC76196-F631-AD29-2F9D-7CD6FFD57CD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(code)", "..\dropbox\_DEV\_projects\windows-volume-app\code", "{C9437D18-ABC9-1B63-E277-5BCA304C6052}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(dropbox)", "..\dropbox", "{69F2903A-30B1-AFA0-FC72-CB2C3A0DC555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\dropbox\_DEV\_projects\windows-volume-app\code\windows-volume-manager\vol32-lib\node_modules\node-addon-api", "{F3E4029E-ADC3-0509-B34C-7671D7360FDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\dropbox\_DEV\_projects\windows-volume-app\code\windows-volume-manager\vol32-lib\node_modules", "{92DC8050-0A1C-28FD-2E0F-B896EE4B1A3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\dropbox\_DEV\_projects\windows-volume-app\code\windows-volume-manager\vol32-lib\node_modules\node-addon-api\src", "{EE4DC6C2-E4D3-7D67-AAD2-68EFE7F706A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(vol32-lib)", "..\dropbox\_DEV\_projects\windows-volume-app\code\windows-volume-manager\vol32-lib", "{09400BE2-8B3F-FA23-95FC-D0E18CD57266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(windows-volume-app)", "..\dropbox\_DEV\_projects\windows-volume-app", "{49DD0E67-3736-F9B1-6A06-6BBFBDB0A5CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(windows-volume-manager)", "..\dropbox\_DEV\_projects\windows-volume-app\code\windows-volume-manager", "{7A10394F-7B20-403E-9901-787E6BAC5B64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon.vcxproj", "{1764D46E-F0A9-17D4-B1CE-5B987DEE4176}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5E8963E-1658-EB42-DB63-732C4C505C26} = {C5E8963E-1658-EB42-DB63-732C4C505C26}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{C5E8963E-1658-EB42-DB63-732C4C505C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1764D46E-F0A9-17D4-B1CE-5B987DEE4176}.Debug|x64.ActiveCfg = Debug|x64
+		{1764D46E-F0A9-17D4-B1CE-5B987DEE4176}.Debug|x64.Build.0 = Debug|x64
+		{1764D46E-F0A9-17D4-B1CE-5B987DEE4176}.Release|x64.ActiveCfg = Release|x64
+		{1764D46E-F0A9-17D4-B1CE-5B987DEE4176}.Release|x64.Build.0 = Release|x64
+		{C5E8963E-1658-EB42-DB63-732C4C505C26}.Debug|x64.ActiveCfg = Debug|x64
+		{C5E8963E-1658-EB42-DB63-732C4C505C26}.Debug|x64.Build.0 = Debug|x64
+		{C5E8963E-1658-EB42-DB63-732C4C505C26}.Release|x64.ActiveCfg = Release|x64
+		{C5E8963E-1658-EB42-DB63-732C4C505C26}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FC76196-F631-AD29-2F9D-7CD6FFD57CD5} = {45113A13-2933-F543-3185-4E80B15ADDED}
+		{49DD0E67-3736-F9B1-6A06-6BBFBDB0A5CC} = {0FC76196-F631-AD29-2F9D-7CD6FFD57CD5}
+		{7A10394F-7B20-403E-9901-787E6BAC5B64} = {C9437D18-ABC9-1B63-E277-5BCA304C6052}
+		{45113A13-2933-F543-3185-4E80B15ADDED} = {69F2903A-30B1-AFA0-FC72-CB2C3A0DC555}
+		{EE4DC6C2-E4D3-7D67-AAD2-68EFE7F706A0} = {F3E4029E-ADC3-0509-B34C-7671D7360FDE}
+		{F3E4029E-ADC3-0509-B34C-7671D7360FDE} = {92DC8050-0A1C-28FD-2E0F-B896EE4B1A3D}
+		{C5E8963E-1658-EB42-DB63-732C4C505C26} = {EE4DC6C2-E4D3-7D67-AAD2-68EFE7F706A0}
+		{92DC8050-0A1C-28FD-2E0F-B896EE4B1A3D} = {09400BE2-8B3F-FA23-95FC-D0E18CD57266}
+		{C9437D18-ABC9-1B63-E277-5BCA304C6052} = {49DD0E67-3736-F9B1-6A06-6BBFBDB0A5CC}
+		{09400BE2-8B3F-FA23-95FC-D0E18CD57266} = {7A10394F-7B20-403E-9901-787E6BAC5B64}
+	EndGlobalSection
+EndGlobal

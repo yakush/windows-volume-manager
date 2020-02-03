@@ -1,0 +1,21 @@
+{
+  "name": "windows-volume-manager",
+  "version": "1.0.0",
+  "description": "mono repo for winodows-volume-manager project",
+  "main": "index.js",
+  "scripts": {
+    "build-and-test": "npm run build:native && npm run run:test",
+    "build:native": "npm run build:native --prefix vol32-lib",
+    "run:test": "npm run test --prefix vol32-service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakush/windows-volume-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakush/windows-volume-manager/issues"
+  },
+  "homepage": "https://github.com/yakush/windows-volume-manager#readme"
+}

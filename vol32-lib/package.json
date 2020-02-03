@@ -1,0 +1,30 @@
+{
+  "name": "vol32-lib",
+  "version": "1.0.0",
+  "description": "",
+  "os": [
+    "win32"
+  ],
+  "main": "dist/index.js",
+  "gypfile": true,
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build:native && npm run build:js",
+    "watch": "npm run watch:js",
+    "clean": "node-gyp clean",
+    "install": "node-gyp rebuild",
+    "build:native": "node-gyp rebuild",
+    "build:js": "tsc",
+    "watch:js": "tsc -w"
+  },
+  "author": "Yak",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  }
+}
